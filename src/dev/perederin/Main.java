@@ -12,11 +12,15 @@ public class Main {
         System.out.println("Enter operation");
         Scanner calc = new Scanner(System.in);
         String symbol = calc.next();
-        switch (symbol){
-            case "+" : break;
-            case "-": break;
-            case "*": break;
-            case "/": break;
+        switch (symbol) {
+            case "+":
+                break;
+            case "-":
+                break;
+            case "*":
+                break;
+            case "/":
+                break;
             default:
                 System.out.println("wrong operation");
 
@@ -26,20 +30,19 @@ public class Main {
         int number2 = sc2.nextInt();
         System.out.println("You enter " + number2);
 
-        switch (symbol){
+        switch (symbol) {
             case "+":
                 System.out.println("Result " + number1 + number2);
-        }
-        switch (symbol){
+            case "*":
+                System.out.println("Result " + number1 * number2);
+            case "/":
+                System.out.println("Result " + number1 / number2);
             case "-":
-                System.out.println("Result " + number1 - number2);
+
+
+
         }
-
-
-
-
     }
-
 
 
 }
