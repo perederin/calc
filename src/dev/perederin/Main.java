@@ -26,6 +26,15 @@ public class Main {
         int number2 = sc2.nextInt();
         System.out.println("You enter " + number2);
 
+        switch (symbol){
+            case "+":
+                System.out.println("Result " + number1 + number2);
+        }
+        switch (symbol){
+            case "-":
+                System.out.println("Result " + number1 - number2);
+        }
+
 
 
 
